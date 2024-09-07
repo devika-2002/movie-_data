@@ -21,7 +21,7 @@ const displayMovieData = (data) => {
 
 const getMovies = () => {
   let movies = moviesName.value;
-  let url = `http://www.omdbapi.com/?t=${movies}&apikey=809f0cff`;
+  let url = `https://www.omdbapi.com/?t=${movies}&apikey=809f0cff`;
 
   if (movies.length === 0) {
     result.innerHTML = `<h3 class="msg">Please Enter a Movie Name</h3>`;
